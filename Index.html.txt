@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuantumPenguin | $QUANPEN</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Space+Grotesk:wght@500;600&amp;display=swap');
+        
+        body {
+            font-family: 'Inter', system_ui, sans-serif;
+        }
+        .font-display {
+            font-family: 'Space Grotesk', system_ui, sans-serif;
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #3b82f6, #06b6d4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-zinc-950 text-white">
+    <!-- Navbar -->
+    <nav class="border-b border-zinc-800">
+        <div class="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between">
+            <div class="flex items-center gap-x-3">
+                <div class="w-10 h-10 bg-blue-500 rounded-2xl flex items-center justify-center">
+                    <i class="fa-solid fa-penguin text-white text-2xl"></i>
+                </div>
+                <div>
+                    <span class="font-display text-2xl font-semibold">QuantumPenguin</span>
+                    <span class="text-blue-400 text-sm font-medium">$QUANPEN</span>
+                </div>
+            </div>
+            
+            <div class="flex items-center gap-x-4">
+                <a href="#" class="px-5 py-2.5 text-sm font-medium hover:bg-zinc-900 rounded-2xl transition-colors">How to Buy</a>
+                <a href="https://pump.fun" target="_blank" 
+                   class="px-6 py-2.5 bg-white text-black text-sm font-semibold rounded-2xl hover:bg-zinc-200 transition-colors">
+                    Buy $QUANPEN
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="max-w-4xl mx-auto px-6 pt-16 pb-12 text-center">
+        <div class="inline-flex items-center gap-x-2 bg-zinc-900 border border-zinc-800 rounded-full px-4 py-1.5 mb-6">
+            <div class="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></div>
+            <span class="text-sm font-medium">Live on Solana</span>
+        </div>
+        
+        <h1 class="text-6xl md:text-7xl font-semibold tracking-tighter font-display mb-4">
+            QuantumPenguin
+        </h1>
+        <p class="text-2xl text-zinc-400 mb-8">$QUANPEN</p>
+        
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="https://pump.fun" target="_blank"
+               class="px-8 py-4 bg-blue-600 hover:bg-blue-700 transition-colors rounded-3xl font-semibold text-lg flex items-center justify-center gap-x-2">
+                <i class="fa-solid fa-rocket"></i>
+                <span>Buy on pump.fun</span>
+            </a>
+            <a href="#" 
+               class="px-8 py-4 border border-zinc-700 hover:bg-zinc-900 transition-colors rounded-3xl font-semibold text-lg">
+                Join Telegram
+            </a>
+        </div>
+        
+        <p class="mt-6 text-zinc-500 text-sm">USDC Pair • Trader Cashback Enabled</p>
+    </div>
+
+    <!-- Features -->
+    <div class="max-w-5xl mx-auto px-6 py-12">
+        <div class="grid md:grid-cols-3 gap-6">
+            <!-- Feature 1 -->
+            <div class="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+                <div class="w-12 h-12 bg-blue-500/10 rounded-2xl flex items-center justify-center mb-6">
+                    <i class="fa-solid fa-link text-blue-400 text-2xl"></i>
+                </div>
+                <h3 class="font-semibold text-xl mb-3">USDC Pair</h3>
+                <p class="text-zinc-400">Stable and fair launch with USDC bonding curve. Less volatility, better distribution.</p>
+            </div>
+            
+            <!-- Feature 2 -->
+            <div class="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+                <div class="w-12 h-12 bg-emerald-500/10 rounded-2xl flex items-center justify-center mb-6">
+                    <i class="fa-solid fa-handshake text-emerald-400 text-2xl"></i>
+                </div>
+                <h3 class="font-semibold text-xl mb-3">Trader Cashback</h3>
+                <p class="text-zinc-400">A portion of trading fees goes back to traders. Community-first tokenomics.</p>
+            </div>
+            
+            <!-- Feature 3 -->
+            <div class="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+                <div class="w-12 h-12 bg-purple-500/10 rounded-2xl flex items-center justify-center mb-6">
+                    <i class="fa-solid fa-robot text-purple-400 text-2xl"></i>
+                </div>
+                <h3 class="font-semibold text-xl mb-3">Quantum Energy</h3>
+                <p class="text-zinc-400">An AI-powered penguin bringing quantum vibes and community-driven growth to Solana.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- How to Buy -->
+    <div class="max-w-4xl mx-auto px-6 py-12">
+        <h2 class="text-4xl font-semibold text-center mb-10 font-display">How to Buy $QUANPEN</h2>
+        
+        <div class="space-y-6">
+            <div class="flex gap-6 bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+                <div class="text-4xl font-bold text-zinc-700 w-12">01</div>
+                <div>
+                    <h4 class="font-semibold text-xl mb-2">Get USDC</h4>
+                    <p class="text-zinc-400">Swap SOL to USDC on <a href="https://jup.ag" class="text-blue-400 hover:underline">Jupiter</a> or your wallet.</p>
+                </div>
+            </div>
+            
+            <div class="flex gap-6 bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+                <div class="text-4xl font-bold text-zinc-700 w-12">02</div>
+                <div>
+                    <h4 class="font-semibold text-xl mb-2">Go to pump.fun</h4>
+                    <p class="text-zinc-400">Visit the official $QUANPEN page and connect your wallet.</p>
+                </div>
+            </div>
+            
+            <div class="flex gap-6 bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+                <div class="text-4xl font-bold text-zinc-700 w-12">03</div>
+                <div>
+                    <h4 class="font-semibold text-xl mb-2">Buy $QUANPEN</h4>
+                    <p class="text-zinc-400">Use USDC to buy directly on the bonding curve.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="border-t border-zinc-800 mt-12">
+        <div class="max-w-6xl mx-auto px-6 py-10 flex flex-col md:flex-row items-center justify-between gap-y-6 text-sm text-zinc-400">
+            <div>
+                © 2026 QuantumPenguin. All rights reserved.
+            </div>
+            <div class="flex items-center gap-x-6">
+                <a href="#" class="hover:text-white transition-colors">Twitter</a>
+                <a href="#" class="hover:text-white transition-colors">Telegram</a>
+                <a href="https://pump.fun" target="_blank" class="hover:text-white transition-colors">pump.fun</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Tailwind script (already included via CDN)
+    </script>
+</body>
+</html>
